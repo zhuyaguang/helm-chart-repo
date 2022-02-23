@@ -1,9 +1,32 @@
 apiVersion: v1
 entries:
+  ai-tools:
+  - apiVersion: v1
+    appVersion: 1.16.1
+    created: "2022-02-23T17:19:32.981789332+08:00"
+    description: Chart for the ai-tools
+    digest: 8cf77a732e73163ad63c71938763e31e05ec1564a44597beff99d83d8884d516
+    home: http://www.ai-tools.org
+    icon: https://img0.baidu.com/it/u=1044451002,4090560202&fm=253&fmt=auto&app=138&f=PNG?w=1080&h=471
+    keywords:
+    - ai-tools
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: zhuyaguang@zhejianglab.com
+      name: zhuyaguang
+    name: ai-tools
+    sources:
+    - https://onekey.zhejianglab.com
+    urls:
+    - ai-tools-5.1.5.tgz
+    version: 5.1.5
   nginx:
   - apiVersion: v1
     appVersion: 1.16.1
-    created: "2022-02-23T16:50:27.309902984+08:00"
+    created: "2022-02-23T17:19:32.983311921+08:00"
     description: Chart for the nginx server
     digest: cb5e21661664796c0cf9d190ab17a34796499bbabb0ce9dc7d60de92ad0e0961
     home: http://www.nginx.org
@@ -21,6 +44,6 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-nginx
     urls:
-    - https://zhuyaguang.github.io/helm-chart-repo/nginx-5.1.5.tgz
+    - nginx-5.1.5.tgz
     version: 5.1.5
-generated: "2022-02-23T16:50:27.307667352+08:00"
+generated: "2022-02-23T17:19:32.980803367+08:00"
