@@ -1,0 +1,19 @@
+apiVersion: v1
+appVersion: 1.16.1
+description: Chart for the ai-tools 
+engine: gotpl
+home: http://www.ai-tools.org
+icon: https://img0.baidu.com/it/u=1044451002,4090560202&fm=253&fmt=auto&app=138&f=PNG?w=1080&h=471
+keywords:
+- ai-tools
+- http
+- web
+- www
+- reverse proxy
+maintainers:
+- email: zhuyaguang@zhejianglab.com
+  name: zhuyaguang
+name: ai-tools
+sources:
+- https://onekey.zhejianglab.com
+version: 5.1.5
