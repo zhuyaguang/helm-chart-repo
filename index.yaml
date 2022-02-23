@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  nginx:
+  - apiVersion: v1
+    appVersion: 1.16.1
+    created: "2022-02-23T16:50:27.309902984+08:00"
+    description: Chart for the nginx server
+    digest: cb5e21661664796c0cf9d190ab17a34796499bbabb0ce9dc7d60de92ad0e0961
+    home: http://www.nginx.org
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: nginx
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    urls:
+    - https://zhuyaguang.github.io/helm-chart-repo/nginx-5.1.5.tgz
+    version: 5.1.5
+generated: "2022-02-23T16:50:27.307667352+08:00"
